@@ -35,42 +35,44 @@ Welcome to the **AI Personal Tutor** repository! This project aims to build an i
 ```bash
 git clone https://github.com/Shivrastogi004/AI_Personal_Tutor.git
 cd AI_Personal_Tutor
+
+```
+---
+
 Step 2: Install dependencies
 Make sure you have Python 3.8+ installed. Then, install the required libraries:
-
-bash
-Copy
+```bash
 pip install -r requirements.txt
-Step 3: Set up environment variables
-You need an OpenAI API key to use some features of the model, such as personalized feedback generation. To use OpenAI API, get your key from OpenAI's website and set it in your environment variables:
-
-bash
-Copy
-export OPENAI_API_KEY="your-openai-api-key"
-Step 4: Run the FastAPI Backend
+```
+---
+**Step 4: Run the FastAPI Backend**
 To run the FastAPI app (API server):
+```bash
+python app.py
 
-bash
-Copy
+```
+---
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 This will start the API at http://0.0.0.0:8000, and you can access the API documentation at http://127.0.0.1:8000/docs.
-
-Step 5: Run the Streamlit App
+---
+**Step 5: Run the Streamlit App**
 To start the Streamlit front-end interface:
 
-bash
-Copy
+```bash
 streamlit run streamlit_app.py
+```
+---
 This will open a local Streamlit server at http://localhost:8501 where users can interact with the AI Personal Tutor.
+---
 
-API Endpoints
+**API Endpoints**
 1. Predict Knowledge Tracing
 POST /predict_knowledge_tracing
 
 Predict whether a student will answer a given problem correctly.
 
 Request Body:
-
+```
 json
 Copy
 {
@@ -79,13 +81,16 @@ Copy
   "attempt_count": 3,
   "ms_first_response_time": 24000
 }
+```
 Response:
-
+```
 json
 Copy
 {
   "probability_correct": 0.85
 }
+```
+```
 2. Recommend Question
 POST /recommend_question
 
@@ -98,6 +103,8 @@ Copy
 {
   "user_id": 1
 }
+```
+```
 Response:
 
 json
@@ -105,11 +112,14 @@ Copy
 {
   "recommended_problem_id": 2
 }
+```
+
+
 3. Predict Student Performance
 POST /predict_student_performance
 
 Predict a student's performance on a given problem based on various factors like response time, answer choice patterns, and tutor mode used.
-
+```
 Request Body:
 
 json
@@ -128,6 +138,8 @@ Copy
   "tutor_mode_test": 1,
   "tutor_mode_tutor": 1
 }
+```
+```
 Response:
 
 json
@@ -135,7 +147,11 @@ Copy
 {
   "predicted_accuracy": 0.72
 }
-Model Overview
+
+```
+---
+
+**Model Overview**
 Knowledge Tracing Model: A time-series model built with LSTM (Long Short-Term Memory) to predict if a student will answer a question correctly based on past interactions.
 
 Student Performance Prediction Model: This model uses XGBoost, a decision-tree-based ensemble method, to predict a student's overall performance based on multiple behavioral features.
