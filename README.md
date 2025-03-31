@@ -92,10 +92,10 @@ streamlit run streamlit_app.py
 ![Streamlit Interface 4](Screenshot/Screenshot%202025-03-31%20142824.png)
 
 ### Screenshot of Streamlit Interface 5:
-![Streamlit Interface 5](Screenshot/Screenshot%202025-03-31%20142883.png)
+![Streamlit Interface 5](Screenshot/Screenshot%2025-03-31%142833.png)
 
 ### Screenshot of Streamlit Interface 6:
-![Streamlit Interface 6](Screenshot/Screenshot%202025-03-31%20142843.png)
+![Streamlit Interface 6](Screenshot/Screenshot%2025-03-31%142843.png)
 ---
 ## Step 5: Test the AI Personal Tutor
 
