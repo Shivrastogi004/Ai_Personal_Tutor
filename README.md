@@ -97,6 +97,49 @@ streamlit run streamlit_app.py
 ### Screenshot of Streamlit Interface 6:
 ![Streamlit Interface 6](Screenshot/Screenshot%202025-03-31%20142843.png)
 ---
+## Step 5: Test the AI Personal Tutor
+
+Once everything is set up, you can test the **AI Personal Tutor** by interacting with the frontend. The application will allow you to:
+
+- Predict a student's performance based on various input parameters such as response time, answer choice patterns, and more.
+- Receive personalized question recommendations to improve knowledge retention.
+- Track the learning progress of the student over time.
+
+Test various parameters and see how the AI adapts to the user inputs.
+
+### Example Inputs:
+- **User ID**
+- **Problem ID**
+- **Attempt Count**
+- **Response Time (ms)**
+
+These inputs are processed by the backend to predict the performance and offer recommendations.
+
+---
+
+## Conclusion
+
+The **AI Personal Tutor** is an advanced, AI-driven platform that leverages machine learning models to personalize learning and predict student performance. By integrating models like **LSTM** for knowledge tracing, **XGBoost** for performance prediction, and **Matrix Factorization** for personalized question recommendations, this project enhances the student learning experience.
+
+With the setup complete and the system running, students and educators can use the AI tutor for real-time analysis, performance tracking, and content personalization.
+
+We hope this platform helps improve student engagement and learning outcomes, making it easier for educators to provide tailored learning experiences.
+
+---
+
+## Summary Table
+
+Here is a quick summary of the steps involved in setting up and running the **AI Personal Tutor**:
+
+| **Step** | **Description**                                                                                       |
+|----------|-------------------------------------------------------------------------------------------------------|
+| **Step 1**   | **Clone the Repository**: Download the project files to your local machine.                           |
+| **Step 2**   | **Install Dependencies**: Install all required Python libraries using the `requirements.txt` file.     |
+| **Step 3**   | **Run the FastAPI Backend**: Start the FastAPI server to handle API requests for performance prediction.|
+| **Step 4**   | **Run the Streamlit Frontend**: Launch the Streamlit app for user interaction and input processing.     |
+| **Step 5**   | **Test the AI Personal Tutor**: Interact with the tutor, input various parameters, and test the system. |
+
+---
 
 
 
