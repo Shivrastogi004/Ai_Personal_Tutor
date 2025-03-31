@@ -71,3 +71,5 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ![FastAPI Error Response](Screenshot/Screenshot_2025-03-31_143105.png)
 
 
+
+
