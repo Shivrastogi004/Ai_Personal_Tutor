@@ -56,18 +56,18 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 ---
 ### Screenshot of FastAPI Documentation:
-![FastAPI Documentation](screenshots/Screenshot_2025-03-31_143017.png)
+![FastAPI Documentation](Screenshots/Screenshot_2025-03-31_143017.png)
 
 ### Screenshot of FastAPI Response:
-![FastAPI Response](screenshots/Screenshot_2025-03-31_143030.png)
+![FastAPI Response](Screenshots/Screenshot_2025-03-31_143030.png)
 
 ### Screenshot of FastAPI Parameters:
-![FastAPI Parameters](screenshots/Screenshot_2025-03-31_143037.png)
+![FastAPI Parameters](Screenshots/Screenshot_2025-03-31_143037.png)
 
 ### Screenshot of FastAPI Request Body:
-![FastAPI Request Body](screenshots/Screenshot_2025-03-31_143100.png)
+![FastAPI Request Body](Screenshots/Screenshot_2025-03-31_143100.png)
 
 ### Screenshot of FastAPI Error Response:
-![FastAPI Error Response](screenshots/Screenshot_2025-03-31_143105.png)
+![FastAPI Error Response](Screenshots/Screenshot_2025-03-31_143105.png)
 
 
