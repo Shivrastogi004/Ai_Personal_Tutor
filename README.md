@@ -57,16 +57,16 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ---
 ### Screenshot of FastAPI Documentation:
 ![FastAPI Documentation](Screenshot/Screenshot%202025-03-31%20143017.png)
-
+---
 ### Screenshot of FastAPI Response:
 ![FastAPI Response](Screenshot/Screenshot%202025-03-31%20143030.png)
-
+---
 ### Screenshot of FastAPI Parameters:
 ![FastAPI Parameters](Screenshot/Screenshot%202025-03-31%20143037.png)
-
+---
 ### Screenshot of FastAPI Request Body:
 ![FastAPI Request Body](Screenshot/Screenshot%202025-03-31%20143100.png)
-
+---
 ### Screenshot of FastAPI Error Response:
 ![FastAPI Error Response](Screenshot/Screenshot%202025-03-31%20143105.png)
 
@@ -81,19 +81,19 @@ streamlit run streamlit_app.py
 ---
 ### Screenshot of Streamlit Interface:
 ![Streamlit Interface 1](Screenshot/Screenshot%202025-03-31%20142736.png)
-
+---
 ### Screenshot of Streamlit Interface 2:
 ![Streamlit Interface 2](Screenshot/Screenshot%202025-03-31%20142756.png)
-
+---
 ### Screenshot of Streamlit Interface 3:
 ![Streamlit Interface 3](Screenshot/Screenshot%202025-03-31%20142808.png)
-
+---
 ### Screenshot of Streamlit Interface 4:
 ![Streamlit Interface 4](Screenshot/Screenshot%202025-03-31%20142824.png)
-
+---
 ### Screenshot of Streamlit Interface 5:
 ![Streamlit Interface 5](Screenshot/Screenshot%202025-03-31%20142833.png)
-
+---
 ### Screenshot of Streamlit Interface 6:
 ![Streamlit Interface 6](Screenshot/Screenshot%202025-03-31%20142843.png)
 
