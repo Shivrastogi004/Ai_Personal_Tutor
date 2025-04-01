@@ -140,8 +140,12 @@ Here is a quick summary of the steps involved in setting up and running the **AI
 | **Step 4**   | **Run the Streamlit Frontend**: Launch the Streamlit app for user interaction and input processing.     |
 | **Step 5**   | **Test the AI Personal Tutor**: Interact with the tutor, input various parameters, and test the system. |
 
-Refer RELEASES for EDnet 4 compatible files and information
+Refer RELEASES for EDnet 4 compatible files and information 
+
+---
+
 Dataset avaialable for download as a zip file directly.
+
 ---
 
 
